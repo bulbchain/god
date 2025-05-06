@@ -49,7 +49,7 @@ useEffect(() => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://pump.fun/"><img src={dexLogo} alt="dexpgod" /></a>
+                <a href="https://pump.fun/coin/DfXLY2qSB8Z1G1KGoVR171d5c63M1csbYdeJj43epump"><img src={dexLogo} alt="dexpgod" /></a>
                 <a href="https://x.com/zeusgodgame"><img src={xLogo} alt="xpgod" /></a>
                 {/* <a href="https://t.me/"><img src={teleLogo} alt="xfredfishgame" /></a> */}
               </div>
