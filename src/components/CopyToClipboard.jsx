@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const CopyToClipboard = () => {
   const [copied, setCopied] = useState(false);
-  const textToCopy = "CA-DfXLY2qSB8Z1G1KGoVR171d5c63M1csbYdeJj43epump";
+  const textToCopy = "DfXLY2qSB8Z1G1KGoVR171d5c63M1csbYdeJj43epump";
 
   const handleCopy = async () => {
     try {
@@ -16,7 +16,7 @@ const CopyToClipboard = () => {
 
   return (
     <div className='flex items-center justify-center gap-2 bg-black p-2 rounded-md'>
-      <span className='text-xs font-bold bg-gradient-to-r from-pink-500 to-yellow-500 bg-clip-text text-transparent text-center'>{textToCopy}</span>
+      <span className='text-xs font-bold bg-gradient-to-r from-pink-500 to-yellow-500 bg-clip-text text-transparent text-center'>CA-{textToCopy}</span>
       <button onClick={handleCopy} style={{ background: 'none', border: 'none', cursor: 'pointer' }} aria-label="Copy">
         {copied ? (
           // ✅ Checkmark icon
