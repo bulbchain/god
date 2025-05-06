@@ -1,11 +1,7 @@
 import { Canvas } from '@react-three/fiber'
 import React, { useState } from 'react'
-import { SpongebobfishHome } from './SpongebobfishHome'
 import { degToRad } from 'three/src/math/MathUtils.js';
 import { OrbitControls } from '@react-three/drei';
-import Particles from './Particles';
-import { God } from './God';
-import { Soldier } from './Soldier';
 import { Zeus } from './Zeus';
 
 export const FishExperience = () => {
