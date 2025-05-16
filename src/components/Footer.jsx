@@ -27,7 +27,7 @@ const Footer = () => {
 
       <div className="mt-2">
                      <div className="social-icon-footer ">
-                       <a href="https://pump.fun/coin/6D5iq7wdeLjQNCAvrSVHxqg51ZpBKGwaAoLb3iTNpum"><img src={dexLogo} alt="xpgod" /></a>
+                       <a href="https://pump.fun/coin/6D5iq7wdeLjQNCAvrSVHxqg51ZpBKGwaAoLb3iTNpump"><img src={dexLogo} alt="xpgod" /></a>
                        <a href="https://x.com/zeusgodgame"><img src={xLogo} alt="tpgod" /></a>
                        {/* <a href="https://t.me/fredfishgame"><img src={teleLogo} alt="" /></a> */}
                      </div>
